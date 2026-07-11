@@ -1,0 +1,13 @@
+import { chromium } from "playwright";
+const browser = await chromium.launch({ args: ["--no-sandbox"] });
+const page = await browser.newPage({ viewport: { width: 1280, height: 800 } });
+await page.goto("http://localhost:5173/vault", { waitUntil: "networkidle" });
+await page.waitForTimeout(300);
+const input = page.locator('input[type="password"]').first();
+await input.fill("DebugWord123");
+const btn = page.getByRole("button", { name: /show/i }).first();
+await btn.click();
+await page.waitForTimeout(100);
+const revealedInput = page.locator('input[value="DebugWord123"]');
+console.log("revealed input type:", await revealedInput.getAttribute("type"));
+console.log("revealed input value:", await revealedInput.inputValue());

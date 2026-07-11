@@ -1,0 +1,13 @@
+import { chromium } from "playwright";
+const [, , sectionId, outName, waitMs] = process.argv;
+const browser = await chromium.launch({ args: ["--no-sandbox"] });
+const page = await browser.newPage({ viewport: { width: 1600, height: 900 } });
+const logs = [];
+page.on("console", (msg) => { if (msg.type() === "error") logs.push(msg.text()); });
+page.on("pageerror", (err) => logs.push(`pageerror: ${err.message}`));
+await page.goto("http://localhost:5183", { waitUntil: "networkidle", timeout: 30000 });
+await page.evaluate((id) => document.getElementById(id)?.scrollIntoView({ behavior: "instant" }), sectionId);
+await page.waitForTimeout(Number(waitMs) || 2200);
+await page.screenshot({ path: `/tmp/claude-1000/-home-abhi-NewProjects-kavach/4a9660ae-e922-482c-b19e-bcbd1a9204e4/scratchpad/${outName}.png` });
+console.log("CONSOLE ERRORS:", JSON.stringify(logs, null, 2));
+await browser.close();

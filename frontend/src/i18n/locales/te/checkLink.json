@@ -1,0 +1,74 @@
+{
+  "title": "లింక్, ప్రొఫైల్ లేదా కాల్‌ను తనిఖీ చేయండి",
+  "description": "అనుమానాస్పద లింక్, సోషల్ మీడియా ప్రొఫైల్ లేదా కాల్ ట్రాన్‌స్క్రిప్ట్‌లో తెలిసిన మోసం పద్ధతుల కోసం తనిఖీ చేయండి.",
+  "tabs": {
+    "phishing": "లింక్",
+    "socialProfile": "ప్రొఫైల్",
+    "digitalArrest": "కాల్ ట్రాన్‌స్క్రిప్ట్"
+  },
+  "actions": {
+    "check": "తనిఖీ చేయండి",
+    "checkAnother": "మరొకటి తనిఖీ చేయండి",
+    "fileReport": "నివేదిక దాఖలు చేయండి"
+  },
+  "loading": "తనిఖీ చేస్తోంది...",
+  "phishing": {
+    "urlLabel": "URL లేదా డొమైన్",
+    "urlPlaceholder": "ఉదా. cbi-verify.gov.in లేదా https://example.com/page",
+    "result": {
+      "domainLabel": "తనిఖీ చేసిన డొమైన్",
+      "blocklistLabel": "తెలిసిన ఫిషింగ్ బ్లాక్‌లిస్ట్",
+      "onBlocklist": "సక్రియ ఫిషింగ్ బ్లాక్‌లిస్ట్‌లో కనుగొనబడింది",
+      "notOnBlocklist": "ఫిషింగ్ బ్లాక్‌లిస్ట్‌లో లేదు",
+      "similarityLabel": "తెలిసిన ప్రభుత్వ/బ్యాంకు డొమైన్‌లతో సారూప్యత",
+      "matchedAgainstLabel": "అత్యంత దగ్గరి సరిపోలిక"
+    },
+    "errors": {
+      "empty": "తనిఖీ చేయడానికి ఒక URL లేదా డొమైన్‌ను నమోదు చేయండి."
+    }
+  },
+  "socialProfile": {
+    "platformLabel": "ప్లాట్‌ఫారమ్",
+    "platforms": {
+      "instagram": "ఇన్‌స్టాగ్రామ్",
+      "facebook": "ఫేస్‌బుక్",
+      "twitter": "ట్విటర్ / X",
+      "whatsapp": "వాట్సాప్",
+      "telegram": "టెలిగ్రామ్",
+      "other": "ఇతర"
+    },
+    "hasProfilePhotoLabel": "ప్రొఫైల్ ఫోటో ఉంది",
+    "profilePhotoIsStockLabel": "ఫోటో స్టాక్ లేదా AI-సృష్టితంగా కనిపిస్తోంది",
+    "isVerifiedLabel": "ధృవీకరించబడిన బ్యాడ్జ్ ఉంది",
+    "accountAgeLabel": "ఖాతా వయస్సు (రోజులు)",
+    "followerCountLabel": "ఫాలోవర్ల సంఖ్య",
+    "followingCountLabel": "ఫాలోయింగ్ సంఖ్య",
+    "postCountLabel": "పోస్ట్‌ల సంఖ్య",
+    "displayNameLabel": "ప్రదర్శన పేరు",
+    "bioTextLabel": "బయో వచనం",
+    "result": {
+      "scoreLabel": "ప్రమాద స్కోరు",
+      "redFlagsLabel": "హెచ్చరిక సూచనలు కనుగొనబడ్డాయి",
+      "noRedFlags": "హెచ్చరిక సూచనలు ఏవీ కనుగొనబడలేదు."
+    }
+  },
+  "digitalArrest": {
+    "transcriptLabel": "కాల్ ట్రాన్‌స్క్రిప్ట్",
+    "transcriptPlaceholder": "కాలర్ చెప్పినది పేస్ట్ చేయండి లేదా టైప్ చేయండి...",
+    "result": {
+      "severityLabel": "ప్రమాద స్థాయి",
+      "matchedPatternsLabel": "మోసం సూచనలు కనుగొనబడ్డాయి",
+      "paymentIndicatorsLabel": "చెల్లింపు ఒత్తిడి కనుగొనబడింది",
+      "noPatterns": "మోసం సూచనలు ఏవీ కనుగొనబడలేదు.",
+      "noPaymentIndicators": "చెల్లింపు ఒత్తిడి ఏదీ కనుగొనబడలేదు.",
+      "anchorLabel": "తెలుసుకోవలసిన విషయం"
+    },
+    "errors": {
+      "empty": "తనిఖీ చేయడానికి ఒక ట్రాన్‌స్క్రిప్ట్‌ను నమోదు చేయండి."
+    }
+  },
+  "result": {
+    "noteLabel": "గమనిక",
+    "reportPrompt": "ఈ ఫలితం ప్రమాదకరంగా కనిపిస్తోంది — కనుగొన్న వివరాలతో ముందుగా నింపిన NCRP ఫిర్యాదు లేదా బ్యాంకు వివాదాన్ని మీరు దాఖలు చేయవచ్చు."
+  }
+}

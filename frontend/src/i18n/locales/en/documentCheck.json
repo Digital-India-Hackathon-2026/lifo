@@ -1,0 +1,31 @@
+{
+  "title": "Document Check",
+  "description": "Upload a scanned notice or document to check for hidden PII and scam language in the extracted text.",
+  "dropzone": {
+    "prompt": "Drag a file here, or click to browse",
+    "hint": "JPEG, PNG, WEBP, or BMP — up to 10 MB"
+  },
+  "actions": {
+    "analyze": "Analyze",
+    "checkAnother": "Check another file",
+    "fileReport": "File a report"
+  },
+  "loading": "Reading document — this can take a few seconds...",
+  "result": {
+    "riskLabel": "Risk level",
+    "ocrTextLabel": "Extracted text",
+    "showFullText": "Show full text",
+    "showLess": "Show less",
+    "piiLabel": "Personal information detected",
+    "scamIndicatorsLabel": "Scam indicators detected",
+    "noIndicators": "No scam indicators detected.",
+    "noPii": "No personal information detected.",
+    "noteLabel": "Note",
+    "reportPrompt": "This result looks risky — you can file an NCRP complaint or bank dispute pre-filled with what was detected."
+  },
+  "errors": {
+    "unsupportedType": "That file type isn't supported for this check.",
+    "tooLarge": "That file is too large.",
+    "serviceUnavailable": "Document scanning is temporarily unavailable — the OCR service may still be starting up. Try again shortly."
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "title": "Family Protection",
+  "description": "Pair a protector with someone you're watching out for, send a panic alert, or practice spotting scams together.",
+  "pairing": {
+    "heading": "Pair devices",
+    "description": "Link a protected person's ID with their protector's ID. Re-pairing updates the link, it never duplicates.",
+    "protectedIdLabel": "Protected person's ID",
+    "protectorIdLabel": "Protector's ID",
+    "success": "Paired {{protected}} with protector {{protector}}.",
+    "submit": "Pair devices"
+  },
+  "panic": {
+    "heading": "Panic trigger",
+    "description": "Broadcast a distress signal — to the paired protector if one exists, otherwise to public emergency channels.",
+    "protectedIdLabel": "Protected person's ID",
+    "deviceSourceLabel": "Triggered from",
+    "deviceSmartwatch": "Smartwatch",
+    "devicePanicButton": "Panic button",
+    "notifiedProtector": "Protector {{id}} has been notified.",
+    "notifiedPublic": "No protector paired — broadcast to public emergency channels.",
+    "submit": "Send panic alert"
+  },
+  "training": {
+    "heading": "Scam-spotting practice",
+    "description": "Get a real drill scenario, pick what you'd do, and see whether you got it right.",
+    "userIdLabel": "Your ID",
+    "getDrill": "Get a drill",
+    "submitAnswer": "Submit answer",
+    "correct": "Correct.",
+    "incorrect": "Not quite.",
+    "scoreLabel": "Drills completed",
+    "nextDrill": "Try another drill"
+  }
+}

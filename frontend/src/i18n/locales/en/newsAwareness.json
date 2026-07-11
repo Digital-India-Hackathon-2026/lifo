@@ -1,0 +1,19 @@
+{
+  "title": "News & Awareness",
+  "description": "Vernacular videos on the latest scam patterns, plus a live look at what Kavach's own community network has flagged.",
+  "stats": {
+    "heading": "Kavach network, right now",
+    "heatmapLabel": "Community reports on the public heatmap",
+    "b2bLabel": "B2B threat indicators flagged",
+    "loading": "Loading network stats...",
+    "error": "Could not load network stats right now."
+  },
+  "filters": {
+    "languageLabel": "Video language",
+    "languageAll": "All languages",
+    "audienceLabel": "Audience",
+    "audienceAll": "All audiences"
+  },
+  "emptyState": "No videos match these filters yet.",
+  "loading": "Loading awareness content..."
+}

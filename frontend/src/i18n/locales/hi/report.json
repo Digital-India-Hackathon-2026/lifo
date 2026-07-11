@@ -1,0 +1,51 @@
+{
+  "title": "रिपोर्ट दर्ज करें",
+  "subtitle": "इस जांच में जो पाया गया उसके साथ पहले से भरा हुआ। रिपोर्ट प्रकार को छोड़कर नीचे सब कुछ वैकल्पिक है।",
+  "fields": {
+    "complaintType": "रिपोर्ट प्रकार",
+    "complaintTypeNcrp": "एनसीआरपी शिकायत",
+    "complaintTypeBankDispute": "बैंक विवाद",
+    "complaintTypeBoth": "दोनों",
+    "complainantName": "आपका नाम",
+    "complainantPhone": "आपका फ़ोन",
+    "complainantEmail": "आपका ईमेल",
+    "complainantAddress": "आपका पता",
+    "incidentDate": "घटना की तारीख़ और समय",
+    "incidentDescription": "क्या हुआ",
+    "platformUsed": "प्लेटफ़ॉर्म / माध्यम (जैसे व्हाट्सऐप वीडियो कॉल)",
+    "suspectName": "संदिग्ध का बताया गया नाम",
+    "suspectPhone": "संदिग्ध का फ़ोन नंबर",
+    "suspectUpiId": "संदिग्ध की UPI आईडी",
+    "suspectClaimedAgency": "संदिग्ध की बताई गई एजेंसी या पद",
+    "amountLost": "गंवाई गई राशि (₹)",
+    "paymentMode": "भुगतान का तरीका (UPI / NEFT / RTGS / IMPS)",
+    "transactionReference": "लेन-देन संदर्भ / UTR",
+    "transactionDate": "लेन-देन की तारीख़",
+    "recipientAccount": "प्राप्तकर्ता की UPI आईडी या खाता",
+    "bankName": "बैंक का नाम",
+    "accountNumber": "आपका खाता नंबर",
+    "ncrpComplaintNumber": "एनसीआरपी शिकायत नंबर (अगर पहले से दर्ज है)"
+  },
+  "sections": {
+    "yourDetails": "आपका विवरण",
+    "incident": "घटना का विवरण",
+    "financial": "वित्तीय विवरण",
+    "suspect": "संदिग्ध का विवरण",
+    "bank": "बैंक विवरण"
+  },
+  "detectedPatterns": "इस जांच से भेजे गए पहचाने गए संकेत",
+  "actions": {
+    "submit": "रिपोर्ट बनाएं",
+    "cancel": "रद्द करें",
+    "copy": "टेक्स्ट कॉपी करें",
+    "copied": "कॉपी हो गया",
+    "close": "बंद करें",
+    "back": "फ़ॉर्म पर वापस जाएं"
+  },
+  "loading": "बनाया जा रहा है...",
+  "result": {
+    "ncrpLabel": "एनसीआरपी शिकायत टेक्स्ट",
+    "bankLabel": "बैंक विवाद ईमेल",
+    "nextStepsLabel": "अगले कदम"
+  }
+}

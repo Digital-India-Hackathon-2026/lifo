@@ -1,0 +1,71 @@
+@import "tailwindcss";
+@import "@fontsource-variable/bricolage-grotesque";
+@import "@fontsource-variable/noto-sans-devanagari";
+@import "@fontsource-variable/noto-sans-telugu";
+
+/*
+  Kavach app: usability over spectacle. Light, high-contrast, glassmorphism
+  accents — judges and real users read dense result data here (OCR text,
+  score breakdowns), so legibility wins over the marketing site's dark
+  cinematic theme. Risk semantics (low/medium/high) are separate tokens from
+  the brand accent — never rely on the accent color to convey risk.
+*/
+@theme {
+  --color-canvas: #f4f6f7;
+  --color-surface: #ffffff;
+  --color-ink: #10151a;
+  --color-ink-dim: #58636b;
+  --color-border: #dde3e6;
+
+  --color-brand: #0d6d63;
+  --color-brand-dim: #e3f3f0;
+
+  --color-risk-low: #1c8a4b;
+  --color-risk-low-bg: #e7f6ed;
+  --color-risk-medium: #b5720a;
+  --color-risk-medium-bg: #fbf0dc;
+  --color-risk-high: #b3261e;
+  --color-risk-high-bg: #fbe9e8;
+
+  /*
+    Bricolage Grotesque and system-ui have no Devanagari/Telugu glyphs (confirmed
+    empirically — renders as tofu boxes without this). Appending the Noto fallbacks
+    needs no :lang() selector: browsers automatically pick the first font in the
+    stack that covers a given character's script, so Latin text still renders in
+    Bricolage/system-ui and Hindi/Telugu text renders in the matching Noto family,
+    within the same heading or sentence if mixed.
+  */
+  --font-display: "Bricolage Grotesque Variable", "Noto Sans Devanagari Variable", "Noto Sans Telugu Variable", ui-sans-serif, system-ui, sans-serif;
+  --font-body: system-ui, -apple-system, "Segoe UI", "Noto Sans Devanagari Variable", "Noto Sans Telugu Variable", sans-serif;
+  --font-mono: ui-monospace, "SF Mono", Menlo, monospace;
+}
+
+:root {
+  color-scheme: light;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--color-canvas);
+  color: var(--color-ink);
+  font-family: var(--font-body);
+}
+
+/* Shared glass-card treatment — used across every result panel */
+.glass-card {
+  background: rgba(255, 255, 255, 0.72);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  box-shadow: 0 8px 30px rgba(16, 21, 26, 0.06);
+}

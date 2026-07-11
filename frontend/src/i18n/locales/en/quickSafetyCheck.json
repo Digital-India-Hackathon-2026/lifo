@@ -1,0 +1,11 @@
+{
+  "title": "Quick Safety Check",
+  "description": "Check a phone number, UPI ID, or domain against the privacy-preserving blocklist — hashed, never stored or checked in the clear.",
+  "inputLabel": "Phone number, UPI ID, or domain",
+  "inputPlaceholder": "e.g. scammer@upi or cbi-verify.example.com",
+  "check": "Check",
+  "result": {
+    "flagged": "This has been flagged by the blocklist.",
+    "clean": "Not found on the blocklist."
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "title": "मीडिया परिणाम",
+  "description": "यह जांचने के लिए कि यह एआई-जनित है या इसमें छेड़छाड़ की गई है, कोई फ़ोटो, वीडियो या वॉइस क्लिप अपलोड करें।",
+  "tabs": {
+    "image": "फ़ोटो",
+    "video": "वीडियो",
+    "audio": "ऑडियो"
+  },
+  "dropzone": {
+    "prompt": "फ़ाइल यहां खींचें, या ब्राउज़ करने के लिए क्लिक करें",
+    "imageHint": "JPEG, PNG, WEBP या BMP — 10 MB तक",
+    "videoHint": "MP4, AVI, MOV या MKV — 100 MB तक",
+    "audioHint": "WAV, FLAC या OGG — 25 MB तक (केवल फ़ाइल अपलोड — ब्राउज़र माइक रिकॉर्डिंग यहां स्वीकार नहीं की जाती)"
+  },
+  "actions": {
+    "analyze": "विश्लेषण करें",
+    "checkAnother": "दूसरी फ़ाइल जांचें"
+  },
+  "loading": "विश्लेषण हो रहा है — इसमें कुछ सेकंड लग सकते हैं...",
+  "result": {
+    "verdictLabel": "परिणाम",
+    "confidenceLabel": "विश्वास स्कोर",
+    "modelLabel": "मॉडल",
+    "framesSampledLabel": "नमूना फ़्रेम",
+    "mostSuspiciousFrameLabel": "सबसे संदिग्ध फ़्रेम",
+    "anomalyTimestampLabel": "सबसे संदिग्ध क्षण",
+    "noteLabel": "नोट",
+    "secondsSuffix": " सेकंड"
+  },
+  "errors": {
+    "unsupportedType": "इस जांच के लिए यह फ़ाइल प्रकार समर्थित नहीं है।",
+    "tooLarge": "यह फ़ाइल बहुत बड़ी है।"
+  }
+}

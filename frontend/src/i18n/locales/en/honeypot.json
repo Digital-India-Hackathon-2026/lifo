@@ -1,0 +1,59 @@
+{
+  "idle": {
+    "heading": "Let AI Handle It",
+    "body": "Start a session and hand the call to \"Ramesh Kumar\" — a persona that keeps a scammer talking while UPI IDs, bank accounts, phone numbers, and scripted scam phrases are extracted in real time.",
+    "start": "Start session"
+  },
+  "active": {
+    "turnLabel": "Turn {{turn}}",
+    "uploadHint": "WAV, FLAC, or OGG — up to 25 MB",
+    "uploadPrompt": "Upload the scammer's audio",
+    "or": "or",
+    "record": "Record",
+    "stopRecording": "Stop recording",
+    "recording": "Recording...",
+    "send": "Send turn",
+    "discard": "Discard",
+    "sending": "Listening and replying...",
+    "transcriptLabel": "Scammer said",
+    "couldNotTranscribe": "(could not transcribe this audio)",
+    "personaReplyLabel": "Ramesh replied",
+    "noPersonaReply": "No reply generated for this turn.",
+    "replayAudio": "Replay",
+    "traceLabel": "Show pipeline trace",
+    "sidebar": {
+      "heading": "Extracted so far",
+      "upiIds": "UPI IDs",
+      "phoneNumbers": "Phone numbers",
+      "bankAccounts": "Bank accounts",
+      "scriptedPhrases": "Scam patterns",
+      "empty": "Nothing extracted yet."
+    },
+    "endSession": "End session & view report"
+  },
+  "report": {
+    "heading": "Session report",
+    "turnCountLabel": "Turns",
+    "historyHeading": "Full transcript",
+    "intelHeading": "Total extracted intelligence",
+    "runDigitalArrest": "Run through Digital Arrest Check",
+    "checking": "Checking...",
+    "newSession": "Start a new session",
+    "digitalArrest": {
+      "severityLabel": "Severity",
+      "matchedPatternsLabel": "Scam patterns detected",
+      "paymentIndicatorsLabel": "Payment pressure detected",
+      "noPatterns": "No scam patterns detected.",
+      "noPaymentIndicators": "No payment pressure detected.",
+      "anchorLabel": "Good to know",
+      "noteLabel": "Note",
+      "reportPrompt": "This looks risky — you can file an NCRP complaint or bank dispute pre-filled with what was detected.",
+      "fileReport": "File a report"
+    }
+  },
+  "errors": {
+    "micDenied": "Microphone access was denied — you can still upload an audio file instead.",
+    "micUnsupported": "Recording isn't supported in this browser — upload an audio file instead.",
+    "noFile": "Record or upload an audio file first."
+  }
+}

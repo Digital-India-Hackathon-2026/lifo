@@ -1,0 +1,22 @@
+{
+  "title": "Report a Scam",
+  "description": "Report a scam you encountered. After a couple of reports, your reports start contributing to the public community heatmap below.",
+  "form": {
+    "reporterIdLabel": "Your reporter ID",
+    "reporterIdPlaceholder": "e.g. a phone number or username",
+    "scamTypeLabel": "Scam type",
+    "scamTypePlaceholder": "e.g. digital_arrest, kyc_scam",
+    "latLabel": "Latitude",
+    "lngLabel": "Longitude",
+    "descriptionLabel": "What happened",
+    "descriptionPlaceholder": "Briefly describe the scam attempt...",
+    "submitting": "Submitting...",
+    "submit": "Submit report"
+  },
+  "heatmap": {
+    "heading": "Community heatmap",
+    "loading": "Loading heatmap...",
+    "empty": "No zones on the public heatmap yet.",
+    "weightLabel": "Reports"
+  }
+}

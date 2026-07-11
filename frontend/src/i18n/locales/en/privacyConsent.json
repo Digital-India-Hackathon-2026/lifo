@@ -1,0 +1,27 @@
+{
+  "title": "Privacy & Consent",
+  "description": "Control what Kavach is allowed to retain about you, purpose by purpose. Nothing here is retained unless you turn it on.",
+  "userIdLabel": "Your ID",
+  "userIdPlaceholder": "The ID you use across Kavach",
+  "load": "Load",
+  "checkStatus": "Check status",
+  "emptyState": "Enter your ID and load to see and control your consent settings.",
+  "purposes": {
+    "honeypot_session_retention": {
+      "label": "Honeypot session retention",
+      "description": "Keep the transcripts and extracted intelligence from your honeypot sessions."
+    },
+    "family_alert_sharing": {
+      "label": "Family alert sharing",
+      "description": "Share your panic-trigger and call-risk status with your paired protector."
+    },
+    "community_heatmap_reporting": {
+      "label": "Community heatmap reporting",
+      "description": "Let your scam reports contribute to the public community heatmap."
+    },
+    "case_timeline_storage": {
+      "label": "Case timeline storage",
+      "description": "Store the case files and events you build in My Scam Case Timeline."
+    }
+  }
+}

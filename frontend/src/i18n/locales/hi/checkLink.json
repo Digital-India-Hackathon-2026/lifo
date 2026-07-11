@@ -1,0 +1,74 @@
+{
+  "title": "लिंक, प्रोफ़ाइल या कॉल जांचें",
+  "description": "किसी संदिग्ध लिंक, सोशल मीडिया प्रोफ़ाइल या कॉल ट्रांसक्रिप्ट में जाने-पहचाने धोखाधड़ी के तरीकों की जांच करें।",
+  "tabs": {
+    "phishing": "लिंक",
+    "socialProfile": "प्रोफ़ाइल",
+    "digitalArrest": "कॉल ट्रांसक्रिप्ट"
+  },
+  "actions": {
+    "check": "जांचें",
+    "checkAnother": "दूसरा जांचें",
+    "fileReport": "रिपोर्ट दर्ज करें"
+  },
+  "loading": "जांच हो रही है...",
+  "phishing": {
+    "urlLabel": "URL या डोमेन",
+    "urlPlaceholder": "जैसे cbi-verify.gov.in या https://example.com/page",
+    "result": {
+      "domainLabel": "जांचा गया डोमेन",
+      "blocklistLabel": "ज्ञात फ़िशिंग ब्लॉकलिस्ट",
+      "onBlocklist": "सक्रिय फ़िशिंग ब्लॉकलिस्ट में मिला",
+      "notOnBlocklist": "फ़िशिंग ब्लॉकलिस्ट में नहीं",
+      "similarityLabel": "ज्ञात सरकारी/बैंक डोमेन से समानता",
+      "matchedAgainstLabel": "सबसे नज़दीकी मेल"
+    },
+    "errors": {
+      "empty": "जांचने के लिए एक URL या डोमेन दर्ज करें।"
+    }
+  },
+  "socialProfile": {
+    "platformLabel": "प्लेटफ़ॉर्म",
+    "platforms": {
+      "instagram": "इंस्टाग्राम",
+      "facebook": "फ़ेसबुक",
+      "twitter": "ट्विटर / X",
+      "whatsapp": "व्हाट्सऐप",
+      "telegram": "टेलीग्राम",
+      "other": "अन्य"
+    },
+    "hasProfilePhotoLabel": "प्रोफ़ाइल फ़ोटो है",
+    "profilePhotoIsStockLabel": "फ़ोटो स्टॉक या एआई-जनित लगती है",
+    "isVerifiedLabel": "सत्यापित बैज है",
+    "accountAgeLabel": "खाता कितना पुराना है (दिन)",
+    "followerCountLabel": "फ़ॉलोअर संख्या",
+    "followingCountLabel": "फ़ॉलोइंग संख्या",
+    "postCountLabel": "पोस्ट संख्या",
+    "displayNameLabel": "प्रदर्शित नाम",
+    "bioTextLabel": "बायो टेक्स्ट",
+    "result": {
+      "scoreLabel": "जोखिम स्कोर",
+      "redFlagsLabel": "चेतावनी संकेत मिले",
+      "noRedFlags": "कोई चेतावनी संकेत नहीं मिला।"
+    }
+  },
+  "digitalArrest": {
+    "transcriptLabel": "कॉल ट्रांसक्रिप्ट",
+    "transcriptPlaceholder": "कॉलर ने जो कहा उसे पेस्ट करें या टाइप करें...",
+    "result": {
+      "severityLabel": "जोखिम स्तर",
+      "matchedPatternsLabel": "धोखाधड़ी के संकेत मिले",
+      "paymentIndicatorsLabel": "भुगतान का दबाव मिला",
+      "noPatterns": "कोई धोखाधड़ी के संकेत नहीं मिले।",
+      "noPaymentIndicators": "भुगतान का कोई दबाव नहीं मिला।",
+      "anchorLabel": "जानने योग्य बात"
+    },
+    "errors": {
+      "empty": "जांचने के लिए एक ट्रांसक्रिप्ट दर्ज करें।"
+    }
+  },
+  "result": {
+    "noteLabel": "नोट",
+    "reportPrompt": "यह परिणाम जोखिम भरा लगता है — आप जो पाया गया उसके साथ पहले से भरी हुई एनसीआरपी शिकायत या बैंक विवाद दर्ज कर सकते हैं।"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "title": "మోసాన్ని నివేదించండి",
+  "description": "మీకు ఎదురైన మోసాన్ని నివేదించండి. కొన్ని నివేదికల తర్వాత, మీ నివేదికలు దిగువన ఉన్న పబ్లిక్ కమ్యూనిటీ హీట్‌మ్యాప్‌కు దోహదపడటం మొదలవుతుంది.",
+  "form": {
+    "reporterIdLabel": "మీ రిపోర్టర్ ID",
+    "reporterIdPlaceholder": "ఉదా. ఫోన్ నంబర్ లేదా యూజర్‌నేమ్",
+    "scamTypeLabel": "మోసం రకం",
+    "scamTypePlaceholder": "ఉదా. digital_arrest, kyc_scam",
+    "latLabel": "అక్షాంశం (Latitude)",
+    "lngLabel": "రేఖాంశం (Longitude)",
+    "descriptionLabel": "ఏమి జరిగింది",
+    "descriptionPlaceholder": "మోసం ప్రయత్నాన్ని క్లుప్తంగా వివరించండి...",
+    "submitting": "సమర్పిస్తోంది...",
+    "submit": "నివేదికను సమర్పించండి"
+  },
+  "heatmap": {
+    "heading": "కమ్యూనిటీ హీట్‌మ్యాప్",
+    "loading": "హీట్‌మ్యాప్ లోడ్ అవుతోంది...",
+    "empty": "పబ్లిక్ హీట్‌మ్యాప్‌లో ఇంకా ఏ జోన్‌లు లేవు.",
+    "weightLabel": "నివేదికలు"
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "title": "कानूनी सहायता और रिकवरी",
+  "description": "शिकायत बनाएं, e-Zero FIR दर्ज करें, बैंक विवाद को ओम्बड्समैन एस्केलेशन तक ट्रैक करें, और संपत्ति-रिकवरी होल्ड की स्थिति देखें।",
+  "complaint": {
+    "heading": "शिकायत सहायक",
+    "description": "फ़ाइल करने के लिए तैयार NCRP शिकायत और/या बैंक विवाद ईमेल बनाएं।",
+    "typeLabel": "शिकायत प्रकार",
+    "typeNcrp": "NCRP शिकायत",
+    "typeBankDispute": "बैंक विवाद",
+    "typeBoth": "दोनों",
+    "nameLabel": "आपका नाम",
+    "incidentLabel": "क्या हुआ",
+    "ncrpTextLabel": "NCRP शिकायत पाठ",
+    "bankTextLabel": "बैंक विवाद ईमेल पाठ",
+    "submit": "बनाएं"
+  },
+  "ezeroFir": {
+    "heading": "e-Zero FIR",
+    "description": "इलेक्ट्रॉनिक सबमिशन के लिए e-Zero FIR ढांचा (BNSS धारा 457) बनाएं।",
+    "categoryLabel": "खतरे की श्रेणी",
+    "categoryPlaceholder": "जैसे digital_arrest",
+    "hashLabel": "FIR संदर्भ",
+    "statuteLabel": "कानूनी धारा",
+    "statusLabel": "स्थिति",
+    "submit": "e-Zero FIR बनाएं"
+  },
+  "dispute": {
+    "heading": "बैंक विवाद ट्रैकिंग",
+    "description": "बैंक विवाद को उसकी RBI-निर्धारित समाधान अवधि के विरुद्ध ट्रैक करें, और यदि यह समय पार कर चुका है तो बैंकिंग ओम्बड्समैन के पास एस्केलेट करें।",
+    "trackHeading": "नया विवाद दर्ज करें और ट्रैक करें",
+    "userIdLabel": "आपकी आईडी",
+    "bankNameLabel": "बैंक का नाम",
+    "txnRefLabel": "लेन-देन संदर्भ (UTR)",
+    "trackedAs": "इस रूप में ट्रैक किया गया",
+    "trackSubmit": "विवाद दर्ज करें",
+    "statusHeading": "स्थिति जांचें / एस्केलेट करें",
+    "caseIdLabel": "केस आईडी",
+    "statusLabel": "स्थिति",
+    "overdueLabel": "समय पार",
+    "yes": "हां",
+    "no": "नहीं",
+    "checkStatus": "स्थिति जांचें",
+    "escalate": "एस्केलेट करें"
+  },
+  "assetTracker": {
+    "heading": "संपत्ति-रिकवरी ट्रैकर",
+    "description": "किसी केस से जुड़ा फ़्रीज़ किया गया फंड होल्ड बनाएं या देखें।",
+    "createHeading": "होल्ड बनाएं",
+    "caseIdLabel": "केस आईडी",
+    "amountLabel": "फ़्रीज़ राशि (₹)",
+    "bankNodeLabel": "बैंक नोड",
+    "holdCreated": "होल्ड बनाया गया",
+    "createSubmit": "होल्ड बनाएं",
+    "lookupHeading": "होल्ड देखें",
+    "statusLabel": "स्थिति",
+    "lookupSubmit": "देखें"
+  }
+}

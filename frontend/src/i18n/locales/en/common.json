@@ -1,0 +1,54 @@
+{
+  "app": {
+    "name": "Kavach",
+    "tagline": "AI-powered deepfake & scam detection"
+  },
+  "nav": {
+    "dashboard": "Dashboard",
+    "mediaVerdict": "Media Verdict",
+    "documentCheck": "Document Check",
+    "checkLinkProfileCall": "Check a Link, Profile, or Call",
+    "fraudScanner": "Fraud Type Scanner",
+    "quickSafetyCheck": "Quick Safety Check",
+    "vault": "Safe-Word Vault",
+    "honeypot": "Let AI Handle It",
+    "familyProtection": "Family Protection",
+    "reportScam": "Report a Scam",
+    "legalRecovery": "Legal & Recovery",
+    "caseTimeline": "My Scam Case Timeline",
+    "privacyConsent": "Privacy & Consent",
+    "newsAwareness": "News & Awareness"
+  },
+  "disclaimer": "This tool reduces risk but cannot guarantee 100% accuracy. Always verify through a second, independent channel before sending money.",
+  "language": {
+    "label": "Language"
+  },
+  "actions": {
+    "retry": "Try again",
+    "reset": "Start over",
+    "close": "Close"
+  },
+  "errors": {
+    "generic": "Something went wrong. Please try again.",
+    "network": "Could not reach the server. Is the backend running?"
+  },
+  "dashboard": {
+    "heading": "Choose a tool",
+    "subheading": "Thirteen ways to check, protect, and follow up.",
+    "cards": {
+      "mediaVerdict": "Check a photo, video, or voice clip for AI generation or manipulation.",
+      "documentCheck": "Scan a notice or document for forgery and scam language.",
+      "checkLinkProfileCall": "Check a suspicious link, social profile, or call transcript.",
+      "fraudScanner": "Pick a fraud type and scan a message or transcript against it.",
+      "quickSafetyCheck": "Check a phone number, UPI ID, or domain against the blocklist.",
+      "vault": "Set or verify a household safe word for real family contact.",
+      "honeypot": "Let a persona keep a scammer talking while we extract evidence.",
+      "familyProtection": "Pair devices, trigger a panic alert, or practice spotting scams.",
+      "reportScam": "Report a scam you encountered and see the community heatmap.",
+      "legalRecovery": "Generate complaints, track a bank dispute, and follow asset recovery.",
+      "caseTimeline": "Build a manual timeline linking everything one scam attempt touched.",
+      "privacyConsent": "Control what Kavach is allowed to retain, purpose by purpose.",
+      "newsAwareness": "Watch vernacular scam-awareness videos and see what Kavach's own network has flagged."
+    }
+  }
+}

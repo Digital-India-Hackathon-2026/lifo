@@ -1,0 +1,31 @@
+{
+  "title": "Safe-Word Vault",
+  "description": "Set a household safe word so family can confirm they're speaking to the real you — not a scammer. Anyone who calls claiming an emergency should know this word.",
+  "set": {
+    "heading": "Set safe word",
+    "body": "Choose a word only your family would know. It is never stored in readable form or shown again.",
+    "label": "New safe word",
+    "action": "Save safe word",
+    "loading": "Saving...",
+    "another": "Set a different word",
+    "errors": {
+      "tooShort": "Safe word must be at least 3 characters."
+    }
+  },
+  "verify": {
+    "heading": "Verify safe word",
+    "body": "Ask the caller for the safe word and check it here.",
+    "label": "Word given by caller",
+    "action": "Check",
+    "loading": "Checking...",
+    "another": "Check another",
+    "match": "Match",
+    "noMatch": "No match",
+    "errors": {
+      "empty": "Enter a word to check.",
+      "notSetYet": "No safe word set yet — set one first."
+    }
+  },
+  "reveal": "Show",
+  "hide": "Hide"
+}

@@ -1,0 +1,22 @@
+{
+  "title": "धोखाधड़ी की रिपोर्ट करें",
+  "description": "आपके सामने आई धोखाधड़ी की रिपोर्ट करें। कुछ रिपोर्ट के बाद, आपकी रिपोर्ट नीचे दिए गए सार्वजनिक सामुदायिक हीटमैप में योगदान देना शुरू कर देती हैं।",
+  "form": {
+    "reporterIdLabel": "आपकी रिपोर्टर आईडी",
+    "reporterIdPlaceholder": "जैसे फ़ोन नंबर या यूज़रनेम",
+    "scamTypeLabel": "धोखाधड़ी प्रकार",
+    "scamTypePlaceholder": "जैसे digital_arrest, kyc_scam",
+    "latLabel": "अक्षांश (Latitude)",
+    "lngLabel": "देशांतर (Longitude)",
+    "descriptionLabel": "क्या हुआ",
+    "descriptionPlaceholder": "धोखाधड़ी के प्रयास का संक्षेप में वर्णन करें...",
+    "submitting": "सबमिट हो रहा है...",
+    "submit": "रिपोर्ट सबमिट करें"
+  },
+  "heatmap": {
+    "heading": "सामुदायिक हीटमैप",
+    "loading": "हीटमैप लोड हो रहा है...",
+    "empty": "सार्वजनिक हीटमैप पर अभी तक कोई क्षेत्र नहीं है।",
+    "weightLabel": "रिपोर्टें"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "title": "మీడియా ఫలితం",
+  "description": "ఇది AI-సృష్టితమా లేదా మార్చబడిందా అని తనిఖీ చేయడానికి ఫోటో, వీడియో లేదా వాయిస్ క్లిప్‌ను అప్‌లోడ్ చేయండి.",
+  "tabs": {
+    "image": "ఫోటో",
+    "video": "వీడియో",
+    "audio": "ఆడియో"
+  },
+  "dropzone": {
+    "prompt": "ఫైల్‌ను ఇక్కడ లాగండి, లేదా బ్రౌజ్ చేయడానికి క్లిక్ చేయండి",
+    "imageHint": "JPEG, PNG, WEBP లేదా BMP — 10 MB వరకు",
+    "videoHint": "MP4, AVI, MOV లేదా MKV — 100 MB వరకు",
+    "audioHint": "WAV, FLAC లేదా OGG — 25 MB వరకు (ఫైల్ అప్‌లోడ్ మాత్రమే — బ్రౌజర్ మైక్ రికార్డింగ్‌లు ఇక్కడ ఆమోదించబడవు)"
+  },
+  "actions": {
+    "analyze": "విశ్లేషించండి",
+    "checkAnother": "మరో ఫైల్‌ను తనిఖీ చేయండి"
+  },
+  "loading": "విశ్లేషిస్తోంది — ఇది కొన్ని సెకన్లు పట్టవచ్చు...",
+  "result": {
+    "verdictLabel": "ఫలితం",
+    "confidenceLabel": "విశ్వాస స్కోరు",
+    "modelLabel": "మోడల్",
+    "framesSampledLabel": "నమూనా ఫ్రేమ్‌లు",
+    "mostSuspiciousFrameLabel": "అత్యంత అనుమానాస్పద ఫ్రేమ్",
+    "anomalyTimestampLabel": "అత్యంత అనుమానాస్పద క్షణం",
+    "noteLabel": "గమనిక",
+    "secondsSuffix": " సెకన్లు"
+  },
+  "errors": {
+    "unsupportedType": "ఈ తనిఖీ కోసం ఈ ఫైల్ రకం మద్దతు లేదు.",
+    "tooLarge": "ఈ ఫైల్ చాలా పెద్దది."
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "title": "న్యాయ సహాయం & రికవరీ",
+  "description": "ఫిర్యాదును రూపొందించండి, e-Zero FIR దాఖలు చేయండి, బ్యాంకు వివాదాన్ని ఓంబుడ్స్‌మన్ ఎస్కలేషన్ వరకు ట్రాక్ చేయండి, మరియు ఆస్తి-రికవరీ హోల్డ్‌ను అనుసరించండి.",
+  "complaint": {
+    "heading": "ఫిర్యాదు సహాయకుడు",
+    "description": "దాఖలు చేయడానికి సిద్ధంగా ఉన్న NCRP ఫిర్యాదు మరియు/లేదా బ్యాంకు వివాద ఇమెయిల్‌ను రూపొందించండి.",
+    "typeLabel": "ఫిర్యాదు రకం",
+    "typeNcrp": "NCRP ఫిర్యాదు",
+    "typeBankDispute": "బ్యాంకు వివాదం",
+    "typeBoth": "రెండూ",
+    "nameLabel": "మీ పేరు",
+    "incidentLabel": "ఏమి జరిగింది",
+    "ncrpTextLabel": "NCRP ఫిర్యాదు వచనం",
+    "bankTextLabel": "బ్యాంకు వివాద ఇమెయిల్ వచనం",
+    "submit": "రూపొందించండి"
+  },
+  "ezeroFir": {
+    "heading": "e-Zero FIR",
+    "description": "ఎలక్ట్రానిక్ సమర్పణ కోసం e-Zero FIR స్కాఫోల్డ్ (BNSS సెక్షన్ 457) రూపొందించండి.",
+    "categoryLabel": "ముప్పు వర్గం",
+    "categoryPlaceholder": "ఉదా. digital_arrest",
+    "hashLabel": "FIR సూచన",
+    "statuteLabel": "శాసనం",
+    "statusLabel": "స్థితి",
+    "submit": "e-Zero FIR రూపొందించండి"
+  },
+  "dispute": {
+    "heading": "బ్యాంకు వివాద ట్రాకింగ్",
+    "description": "బ్యాంకు వివాదాన్ని దాని RBI-నిర్దేశిత పరిష్కార గడువుకు వ్యతిరేకంగా ట్రాక్ చేయండి, మరియు గడువు దాటితే బ్యాంకింగ్ ఓంబుడ్స్‌మన్‌కు ఎస్కలేట్ చేయండి.",
+    "trackHeading": "కొత్త వివాదాన్ని లేవనెత్తి ట్రాక్ చేయండి",
+    "userIdLabel": "మీ ID",
+    "bankNameLabel": "బ్యాంకు పేరు",
+    "txnRefLabel": "లావాదేవీ సూచన (UTR)",
+    "trackedAs": "దీనిగా ట్రాక్ చేయబడింది",
+    "trackSubmit": "వివాదాన్ని లేవనెత్తండి",
+    "statusHeading": "స్థితిని తనిఖీ చేయండి / ఎస్కలేట్ చేయండి",
+    "caseIdLabel": "కేసు ID",
+    "statusLabel": "స్థితి",
+    "overdueLabel": "గడువు దాటింది",
+    "yes": "అవును",
+    "no": "కాదు",
+    "checkStatus": "స్థితిని తనిఖీ చేయండి",
+    "escalate": "ఎస్కలేట్ చేయండి"
+  },
+  "assetTracker": {
+    "heading": "ఆస్తి-రికవరీ ట్రాకర్",
+    "description": "ఒక కేసుకు అనుసంధానించిన స్తంభింపజేసిన నిధుల హోల్డ్‌ను సృష్టించండి లేదా వెతకండి.",
+    "createHeading": "హోల్డ్‌ను సృష్టించండి",
+    "caseIdLabel": "కేసు ID",
+    "amountLabel": "స్తంభింపజేసిన మొత్తం (₹)",
+    "bankNodeLabel": "బ్యాంకు నోడ్",
+    "holdCreated": "హోల్డ్ సృష్టించబడింది",
+    "createSubmit": "హోల్డ్‌ను సృష్టించండి",
+    "lookupHeading": "హోల్డ్‌ను వెతకండి",
+    "statusLabel": "స్థితి",
+    "lookupSubmit": "వెతకండి"
+  }
+}

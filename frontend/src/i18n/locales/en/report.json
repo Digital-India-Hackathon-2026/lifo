@@ -1,0 +1,51 @@
+{
+  "title": "File a report",
+  "subtitle": "Pre-filled with what this check detected. Everything below is optional except the report type.",
+  "fields": {
+    "complaintType": "Report type",
+    "complaintTypeNcrp": "NCRP complaint",
+    "complaintTypeBankDispute": "Bank dispute",
+    "complaintTypeBoth": "Both",
+    "complainantName": "Your name",
+    "complainantPhone": "Your phone",
+    "complainantEmail": "Your email",
+    "complainantAddress": "Your address",
+    "incidentDate": "Incident date & time",
+    "incidentDescription": "What happened",
+    "platformUsed": "Platform / mode (e.g. WhatsApp video call)",
+    "suspectName": "Suspect's claimed name",
+    "suspectPhone": "Suspect's phone number",
+    "suspectUpiId": "Suspect's UPI ID",
+    "suspectClaimedAgency": "Suspect's claimed agency or designation",
+    "amountLost": "Amount lost (₹)",
+    "paymentMode": "Payment mode (UPI / NEFT / RTGS / IMPS)",
+    "transactionReference": "Transaction reference / UTR",
+    "transactionDate": "Transaction date",
+    "recipientAccount": "Recipient UPI ID or account",
+    "bankName": "Bank name",
+    "accountNumber": "Your account number",
+    "ncrpComplaintNumber": "NCRP complaint number (if already filed)"
+  },
+  "sections": {
+    "yourDetails": "Your details",
+    "incident": "Incident details",
+    "financial": "Financial details",
+    "suspect": "Suspect details",
+    "bank": "Bank details"
+  },
+  "detectedPatterns": "Detected patterns forwarded from this check",
+  "actions": {
+    "submit": "Generate report",
+    "cancel": "Cancel",
+    "copy": "Copy text",
+    "copied": "Copied",
+    "close": "Close",
+    "back": "Back to form"
+  },
+  "loading": "Generating...",
+  "result": {
+    "ncrpLabel": "NCRP complaint text",
+    "bankLabel": "Bank dispute email",
+    "nextStepsLabel": "Next steps"
+  }
+}

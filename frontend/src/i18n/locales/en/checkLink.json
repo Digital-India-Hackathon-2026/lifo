@@ -1,0 +1,74 @@
+{
+  "title": "Check a Link, Profile, or Call",
+  "description": "Check a suspicious link, social media profile, or call transcript for known scam patterns.",
+  "tabs": {
+    "phishing": "Link",
+    "socialProfile": "Profile",
+    "digitalArrest": "Call transcript"
+  },
+  "actions": {
+    "check": "Check",
+    "checkAnother": "Check another",
+    "fileReport": "File a report"
+  },
+  "loading": "Checking...",
+  "phishing": {
+    "urlLabel": "URL or domain",
+    "urlPlaceholder": "e.g. cbi-verify.gov.in or https://example.com/page",
+    "result": {
+      "domainLabel": "Domain checked",
+      "blocklistLabel": "Known phishing blocklist",
+      "onBlocklist": "Found on active phishing blocklist",
+      "notOnBlocklist": "Not on the phishing blocklist",
+      "similarityLabel": "Similarity to known gov/bank domains",
+      "matchedAgainstLabel": "Closest match"
+    },
+    "errors": {
+      "empty": "Enter a URL or domain to check."
+    }
+  },
+  "socialProfile": {
+    "platformLabel": "Platform",
+    "platforms": {
+      "instagram": "Instagram",
+      "facebook": "Facebook",
+      "twitter": "Twitter / X",
+      "whatsapp": "WhatsApp",
+      "telegram": "Telegram",
+      "other": "Other"
+    },
+    "hasProfilePhotoLabel": "Has a profile photo",
+    "profilePhotoIsStockLabel": "Photo looks stock or AI-generated",
+    "isVerifiedLabel": "Has a verified badge",
+    "accountAgeLabel": "Account age (days)",
+    "followerCountLabel": "Follower count",
+    "followingCountLabel": "Following count",
+    "postCountLabel": "Post count",
+    "displayNameLabel": "Display name",
+    "bioTextLabel": "Bio text",
+    "result": {
+      "scoreLabel": "Risk score",
+      "redFlagsLabel": "Red flags detected",
+      "noRedFlags": "No red flags detected."
+    }
+  },
+  "digitalArrest": {
+    "transcriptLabel": "Call transcript",
+    "transcriptPlaceholder": "Paste or type what the caller said...",
+    "result": {
+      "severityLabel": "Severity",
+      "matchedPatternsLabel": "Scam patterns detected",
+      "paymentIndicatorsLabel": "Payment pressure detected",
+      "noPatterns": "No scam patterns detected.",
+      "noPaymentIndicators": "No payment pressure detected.",
+      "anchorLabel": "Good to know"
+    },
+    "errors": {
+      "empty": "Enter a transcript to check."
+    }
+  },
+  "result": {
+    "noteLabel": "Note",
+    "reportPrompt": "This result looks risky — you can file an NCRP complaint or bank dispute pre-filled with what was detected."
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "title": "My Scam Case Timeline",
+  "description": "Manually link the call, message, and payment-app moments you experienced as one scam campaign — nothing here is linked automatically.",
+  "userIdLabel": "Your ID",
+  "userIdPlaceholder": "The ID you use across Kavach",
+  "load": "Load",
+  "newCaseTitlePlaceholder": "New case title, e.g. \"CBI call, 12 July\"",
+  "newCase": "New case",
+  "loading": "Loading cases...",
+  "emptyState": "No cases yet. Create one above to start linking events.",
+  "caseIdLabel": "Case ID",
+  "eventsCount": "events",
+  "noEvents": "No events added yet.",
+  "eventTypes": {
+    "call": "Call",
+    "whatsapp": "WhatsApp",
+    "upi": "UPI payment",
+    "document": "Document",
+    "other": "Other"
+  },
+  "eventDescriptionPlaceholder": "What happened in this event...",
+  "addEvent": "Add"
+}

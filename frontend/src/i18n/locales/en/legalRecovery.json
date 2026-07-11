@@ -1,0 +1,58 @@
+{
+  "title": "Legal & Recovery",
+  "description": "Generate a complaint, file an e-Zero FIR, track a bank dispute through to Ombudsman escalation, and follow an asset-recovery hold.",
+  "complaint": {
+    "heading": "Complaint assistant",
+    "description": "Generate a ready-to-file NCRP complaint and/or bank dispute email.",
+    "typeLabel": "Complaint type",
+    "typeNcrp": "NCRP complaint",
+    "typeBankDispute": "Bank dispute",
+    "typeBoth": "Both",
+    "nameLabel": "Your name",
+    "incidentLabel": "What happened",
+    "ncrpTextLabel": "NCRP complaint text",
+    "bankTextLabel": "Bank dispute email text",
+    "submit": "Generate"
+  },
+  "ezeroFir": {
+    "heading": "e-Zero FIR",
+    "description": "Generate an e-Zero FIR scaffold (BNSS Sec 457) for electronic submission.",
+    "categoryLabel": "Threat category",
+    "categoryPlaceholder": "e.g. digital_arrest",
+    "hashLabel": "FIR reference",
+    "statuteLabel": "Statute",
+    "statusLabel": "Status",
+    "submit": "Generate e-Zero FIR"
+  },
+  "dispute": {
+    "heading": "Bank dispute tracking",
+    "description": "Track a bank dispute against its RBI-mandated resolution window, and escalate to the Banking Ombudsman if it's overdue.",
+    "trackHeading": "Raise & track a new dispute",
+    "userIdLabel": "Your ID",
+    "bankNameLabel": "Bank name",
+    "txnRefLabel": "Transaction reference (UTR)",
+    "trackedAs": "Tracked as",
+    "trackSubmit": "Raise dispute",
+    "statusHeading": "Check status / escalate",
+    "caseIdLabel": "Case ID",
+    "statusLabel": "Status",
+    "overdueLabel": "Overdue",
+    "yes": "Yes",
+    "no": "No",
+    "checkStatus": "Check status",
+    "escalate": "Escalate"
+  },
+  "assetTracker": {
+    "heading": "Asset-recovery tracker",
+    "description": "Create or look up a frozen-funds hold tied to a case.",
+    "createHeading": "Create a hold",
+    "caseIdLabel": "Case ID",
+    "amountLabel": "Frozen amount (₹)",
+    "bankNodeLabel": "Bank node",
+    "holdCreated": "Hold created",
+    "createSubmit": "Create hold",
+    "lookupHeading": "Look up a hold",
+    "statusLabel": "Status",
+    "lookupSubmit": "Look up"
+  }
+}

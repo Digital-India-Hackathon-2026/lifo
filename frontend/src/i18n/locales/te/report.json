@@ -1,0 +1,51 @@
+{
+  "title": "నివేదిక దాఖలు చేయండి",
+  "subtitle": "ఈ తనిఖీలో కనుగొన్న వివరాలతో ముందుగా నింపబడింది. నివేదిక రకం మినహా క్రింద ఉన్నవన్నీ ఐచ్ఛికం.",
+  "fields": {
+    "complaintType": "నివేదిక రకం",
+    "complaintTypeNcrp": "NCRP ఫిర్యాదు",
+    "complaintTypeBankDispute": "బ్యాంకు వివాదం",
+    "complaintTypeBoth": "రెండూ",
+    "complainantName": "మీ పేరు",
+    "complainantPhone": "మీ ఫోన్",
+    "complainantEmail": "మీ ఇమెయిల్",
+    "complainantAddress": "మీ చిరునామా",
+    "incidentDate": "సంఘటన తేదీ & సమయం",
+    "incidentDescription": "ఏమి జరిగింది",
+    "platformUsed": "ప్లాట్‌ఫారమ్ / మార్గం (ఉదా. వాట్సాప్ వీడియో కాల్)",
+    "suspectName": "అనుమానితుడు చెప్పుకున్న పేరు",
+    "suspectPhone": "అనుమానితుడి ఫోన్ నంబర్",
+    "suspectUpiId": "అనుమానితుడి UPI ID",
+    "suspectClaimedAgency": "అనుమానితుడు చెప్పుకున్న సంస్థ లేదా హోదా",
+    "amountLost": "నష్టపోయిన మొత్తం (₹)",
+    "paymentMode": "చెల్లింపు విధానం (UPI / NEFT / RTGS / IMPS)",
+    "transactionReference": "లావాదేవీ సూచన / UTR",
+    "transactionDate": "లావాదేవీ తేదీ",
+    "recipientAccount": "స్వీకర్త UPI ID లేదా ఖాతా",
+    "bankName": "బ్యాంకు పేరు",
+    "accountNumber": "మీ ఖాతా నంబర్",
+    "ncrpComplaintNumber": "NCRP ఫిర్యాదు నంబర్ (ఇప్పటికే దాఖలు చేసి ఉంటే)"
+  },
+  "sections": {
+    "yourDetails": "మీ వివరాలు",
+    "incident": "సంఘటన వివరాలు",
+    "financial": "ఆర్థిక వివరాలు",
+    "suspect": "అనుమానితుడి వివరాలు",
+    "bank": "బ్యాంకు వివరాలు"
+  },
+  "detectedPatterns": "ఈ తనిఖీ నుండి పంపబడిన గుర్తించిన సూచనలు",
+  "actions": {
+    "submit": "నివేదికను రూపొందించండి",
+    "cancel": "రద్దు చేయండి",
+    "copy": "వచనాన్ని కాపీ చేయండి",
+    "copied": "కాపీ చేయబడింది",
+    "close": "మూసివేయండి",
+    "back": "ఫారమ్‌కు తిరిగి వెళ్లండి"
+  },
+  "loading": "రూపొందిస్తోంది...",
+  "result": {
+    "ncrpLabel": "NCRP ఫిర్యాదు వచనం",
+    "bankLabel": "బ్యాంకు వివాద ఇమెయిల్",
+    "nextStepsLabel": "తదుపరి దశలు"
+  }
+}

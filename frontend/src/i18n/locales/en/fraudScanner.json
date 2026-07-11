@@ -1,0 +1,40 @@
+{
+  "title": "Fraud Type Scanner",
+  "description": "Pick the fraud type that matches what you received, then paste the message, transcript, or email — routed straight to that detector.",
+  "detectorLabel": "Fraud type",
+  "detectors": {
+    "romance": "Romance / Pig-Butchering",
+    "investment": "Investment / Trading Scam",
+    "lottery": "Lottery / Prize Scam",
+    "courier": "Courier / Customs Scam",
+    "bec": "Business Email Compromise",
+    "matrimonial": "Matrimonial Fraud",
+    "gov-scheme": "Government Scheme / Subsidy Scam",
+    "qr": "QR Code / Quishing",
+    "exam": "Exam / Scholarship Fraud",
+    "ecommerce": "Fake E-commerce / Delivery Scam",
+    "ussd": "USSD Call-Forwarding Trap",
+    "recruitment": "Fake Recruitment Portal",
+    "job": "Fake Job / Work-From-Home",
+    "loan": "Fake Loan App",
+    "sextortion": "Sextortion",
+    "challan": "Fake Traffic Challan",
+    "customercare": "Fake Customer Care",
+    "kyc": "Fake Bank KYC Update",
+    "rental": "Fake Rental Listing",
+    "reward": "Fake Loyalty / Cashback Reward",
+    "utility": "Fake Utility Bill"
+  },
+  "inputLabel": "Message, transcript, or email",
+  "inputPlaceholder": "Paste what you received here...",
+  "scanning": "Scanning...",
+  "scan": "Scan",
+  "result": {
+    "riskLabel": "Risk level",
+    "flagsLabel": "Patterns matched",
+    "noFlags": "No patterns matched.",
+    "confidenceLabel": "Confidence",
+    "appRegistryLabel": "App registry status",
+    "actionsLabel": "Immediate actions"
+  }
+}
