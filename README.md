@@ -91,7 +91,7 @@ npm run dev
 
 | Surface | URL |
 |---|---|
-| Backend API (GCP Cloud Run) | `TODO: insert once Cloud Run redeploy is confirmed healthy — see parent session` |
+| Backend API (GCP Cloud Run) | https://kavach-backend-v7avos34wq-uc.a.run.app |
 | App (Firebase Hosting) | https://kavach-501620-app.web.app |
 | Marketing site (Firebase Hosting) | https://kavach-marketing.web.app |
 
